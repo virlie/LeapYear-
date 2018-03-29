@@ -13,12 +13,23 @@
   <body>
     <h3>Enter any year here to check if it's a Leap Year!</h3>
     <div class="container-fluid">
-      <div class="col-12 mb-3 col-md-3 ">
-        <input type="text" id="yearEnt" value="" class="form-control" placeholder="2000">
-      </div>
-      <button type="submit" name="Submit"></button>
-
+      <form id="leap-year" action="index.html" method="post">
+        <div class="col-12 mb-3 col-md-3 ">
+          <input type="text" id="yearEnt" value="" class="form-control" placeholder="2000">
+        </div>
+        <button type="submit" class="btn btn-primary
+        form" name="button">Submit</button>
       </form>
+      <div id="results">
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
 
 
 
@@ -26,6 +37,3 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    </div>
-  </body>
-</html>

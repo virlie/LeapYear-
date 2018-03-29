@@ -3,3 +3,13 @@
 // If the year can be evenly divided by 100, it is NOT a leap year, unless;
 // The year is also evenly divisible by 400. Then it is a leap year.
 ///
+var input=()
+
+$(document).ready(function() {
+  $("form#leap-year").submit(function(event) {
+    event.preventDefault();
+    var year = parseInt($("input#year").val());
+    var results = leapYear(year);
+    $("#results").text(result);
+  });
+});
